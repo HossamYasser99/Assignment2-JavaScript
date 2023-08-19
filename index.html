@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container p-5">
+            <div class="row py-4">
+                <div class="col text-center text-primary">
+                    <h1>Quote of the Day</h1>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="d-flex justify-content-center">
+                    <i class="fa-solid fa-hand-holding-heart fa-3x text-success mx-3"></i>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col text-center text-dark">
+                    <h2>please press the below button to receive a quote ...!</h2>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col text-center text-dark">
+                        <button class="btn btn-outline-dark btn-lg" onclick="generateQuote()"><i class="fa-solid fa-computer-mouse px-2"></i> New Quote</button>
+                </div>
+            </div>
+            <div class="row py-5 border border-3 border-dark">
+                <div class="col text-center text-dark">
+                    <p class="p1 text-danger" id="quoteOutput"></i></p>
+                    <p class="p2 text-warning" id="authorOutput"></p>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
